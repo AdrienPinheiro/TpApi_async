@@ -5,54 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e61d5512-115d-4e25-994e-a2b60de6ec5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonTp/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/ObjectConnecte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/TypeObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/enceinteConnectee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/tablette.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/telephonePortable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/ButtonEnceinte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/ButtonTablette.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/ButtonTelephone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/factory/ObjectConnecteFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SingletonTpTest/SingletonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/ApiCall.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Clouds.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Coord.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Humidity.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Pays.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Root.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Weather.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Wind.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/JokeTP/JokeReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/methodeTraining/MethodeString.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/amplificateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/lecteurCd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/lecteurDvd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/popcorn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/projeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/screen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/tuner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/facade/homeCinemaFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArchitectureJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ArchitectureJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/ApiCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/ApiCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Clouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Clouds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Coord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Coord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Humidity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Humidity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Pays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Pays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Root.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Weather.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Wind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/resources/jokes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jokes.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,13 +72,13 @@
       <recent name="D:\Workplace\IntelliJ\ArchitectureJava\src\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.factoryMethod.Main">
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SingletonTp.Singleton" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="facadeMethode.Main" />
       <module name="ArchitectureJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="SingletonTp.*" />
+          <option name="PATTERN" value="facadeMethode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.factoryMethod.Main" />
         <item itemvalue="TestNG.SingletonTest.testDbUrl" />
         <item itemvalue="TestNG.SingletonTest" />
         <item itemvalue="TestNG.SingletonTest.testDbRoot" />
-        <item itemvalue="Application.Singleton" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +177,8 @@
       <workItem from="1657094939608" duration="7007000" />
       <workItem from="1657102289180" duration="441000" />
       <workItem from="1657185507904" duration="1481000" />
-      <workItem from="1657269224554" duration="4744000" />
+      <workItem from="1657269224554" duration="5686000" />
+      <workItem from="1657286910664" duration="2527000" />
     </task>
     <servers />
   </component>
