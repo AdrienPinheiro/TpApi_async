@@ -1,28 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e61d5512-115d-4e25-994e-a2b60de6ec5f" name="Changes" comment="" />
+    <list default="true" id="e61d5512-115d-4e25-994e-a2b60de6ec5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SingletonTp/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/ObjectConnecte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/TypeObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/enceinteConnectee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/tablette.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/bo/telephonePortable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/ButtonEnceinte.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/ButtonTablette.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/buttons/ButtonTelephone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryMethod/factory/ObjectConnecteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SingletonTpTest/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/ApiCall.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Clouds.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Coord.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Humidity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Pays.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Root.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Weather.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ApiTp/bo/Wind.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/JokeTP/JokeReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/methodeTraining/MethodeString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ArchitectureJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ArchitectureJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/ApiCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/ApiCall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Clouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Clouds.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Coord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Coord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Humidity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Humidity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Pays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Pays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Root.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Root.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Weather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Weather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ApiTp/bo/Wind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/resources/jokes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jokes.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2BW7yRrvHAmpU8HFeePsGDNnfae" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ApiTp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Workplace\IntelliJ\ArchitectureJava\src\main" />
+      <recent name="D:\Workplace\IntelliJ\ArchitectureJava\src\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.factoryMethod.Main">
+    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SingletonTp.Singleton" />
+      <module name="ArchitectureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonTp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="factoryMethod.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factoryMethod.Main" />
+      <module name="ArchitectureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factoryMethod.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ArchitectureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonTpTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SingletonTpTest" />
+      <option name="MAIN_CLASS_NAME" value="SingletonTpTest.SingletonTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.testDbRoot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ArchitectureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonTpTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SingletonTpTest" />
+      <option name="MAIN_CLASS_NAME" value="SingletonTpTest.SingletonTest" />
+      <option name="METHOD_NAME" value="testDbRoot" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SingletonTest.testDbUrl" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ArchitectureJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SingletonTpTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SingletonTpTest" />
+      <option name="MAIN_CLASS_NAME" value="SingletonTpTest.SingletonTest" />
+      <option name="METHOD_NAME" value="testDbUrl" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.factoryMethod.Main" />
+        <item itemvalue="TestNG.SingletonTest.testDbUrl" />
+        <item itemvalue="TestNG.SingletonTest" />
+        <item itemvalue="TestNG.SingletonTest.testDbRoot" />
+        <item itemvalue="Application.Singleton" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -31,8 +207,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657010242174</updated>
+      <workItem from="1657010243537" duration="7268000" />
+      <workItem from="1657018730314" duration="1091000" />
+      <workItem from="1657022491060" duration="3986000" />
+      <workItem from="1657034358992" duration="24000" />
+      <workItem from="1657094939608" duration="7007000" />
+      <workItem from="1657102289180" duration="441000" />
+      <workItem from="1657185507904" duration="1481000" />
+      <workItem from="1657269224554" duration="4744000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -44,5 +231,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

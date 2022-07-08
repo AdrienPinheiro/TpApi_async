@@ -1,9 +1,15 @@
 package ApiTp;
 
-import java.io.IOException;
-import java.util.Arrays;
-import java.util.List;
+import ApiTp.bo.Humidity;
+import ApiTp.bo.Root;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.*;
+import java.net.http.HttpResponse;
+
 import java.util.Scanner;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutionException;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,17 +17,11 @@ public class Main {
         System.out.println("Quelle ville voulez-vous regarder ?");
         String city = scan.nextLine();
         try{
-            String call = ApiCall.resultCall(city).body();
-            List<String> result = List.of(call.split("}"));
-            System.out.println(call);
-            for (String str : result) {
+            CompletableFuture<HttpResponse<String>> data = ApiCall.resultCall(city);
+            Root root = new ObjectMapper().readValue(data.get().body(), Root.class);
+            System.out.println("A "+root.getName() + ", il fait " + root.getHumidity().getTemp_max() + " degré max toute la journée !");
 
-            }
-            //HttpHeaders headers = response.headers();
-            //headers.map().forEach((k, v) -> System.out.println(k + ":" + v));
-            //System.out.println(response.statusCode());
-            //System.out.println(response.body());
-        } catch (IOException | InterruptedException e) {
+        } catch (IOException | InterruptedException | ExecutionException e) {
             throw new RuntimeException(e);
         }
     }
