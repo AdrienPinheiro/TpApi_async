@@ -5,16 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e61d5512-115d-4e25-994e-a2b60de6ec5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/amplificateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/lecteurCd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/lecteurDvd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/light.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/popcorn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/projeter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/screen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/bo/tuner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/facadeMethode/facade/homeCinemaFacade.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -178,7 +168,8 @@
       <workItem from="1657102289180" duration="441000" />
       <workItem from="1657185507904" duration="1481000" />
       <workItem from="1657269224554" duration="5686000" />
-      <workItem from="1657286910664" duration="2527000" />
+      <workItem from="1657286910664" duration="3213000" />
+      <workItem from="1657525419655" duration="16000" />
     </task>
     <servers />
   </component>
